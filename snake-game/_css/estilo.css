@@ -3,6 +3,7 @@
     font-family: nokia;
     src: url(_fontes/nokia-cellphone-fc-small.ttf);
 }
+
 body
 {
     height: 95vh;
@@ -21,4 +22,22 @@ body
     font-size: 80px;
     padding-bottom: 0;
     padding: 0;
+}
+
+.play
+{
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 120px;
+    transition: .4s ease all;
+    font-family: nokia;
+}
+
+.play:hover
+{
+    background-color: white;
+    color: black;
 }

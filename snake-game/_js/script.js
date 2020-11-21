@@ -95,5 +95,5 @@ function iniciarGame()
 
 }
 
-let jogo = setInterval(iniciarGame, 100);
+
 
