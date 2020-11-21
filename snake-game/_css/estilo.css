@@ -1,0 +1,24 @@
+@font-face 
+{
+    font-family: nokia;
+    src: url(_fontes/nokia-cellphone-fc-small.ttf);
+}
+body
+{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.titulo
+{
+    font-style: none;
+    font-family: nokia;
+    font-size: 80px;
+    padding-bottom: 0;
+    padding: 0;
+}
